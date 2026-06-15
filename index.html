@@ -1,0 +1,82 @@
+# web-intro-lab-4.5
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bảng lịch học cá nhân</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #fdfdfd;
+    }
+    table {
+      width: 100%;
+      max-width: 600px;
+      border-collapse: collapse; /* Gộp các đường viền lại thành 1 đường mảnh */
+      margin: 20px 0;
+      background-color: #fff;
+    }
+    caption {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    th, td {
+      border: 1px solid #cccccc;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+      color: #111;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9; /* Tạo màu xen kẽ cho các dòng dễ nhìn */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Quản lý thời gian biểu</h1>
+    <p>Theo dõi lịch học các môn công nghệ thông tin trong tuần.</p>
+  </header>
+
+  <main>
+    <table>
+      <caption>Lịch Học Các Môn Lập Trình Tuần Này</caption>
+      
+      <thead>
+        <tr>
+          <th>Thứ (Ngày)</th>
+          <th>Môn Học</th>
+          <th>Thời Gian</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr>
+          <td>Thứ Hai</td>
+          <td>Ngôn ngữ HTML cơ bản</td>
+          <td>08:00 - 10:30</td>
+        </tr>
+        
+        <tr>
+          <td>Thứ Tư</td>
+          <td>Định dạng giao diện với CSS</td>
+          <td>14:00 - 16:30</td>
+        </tr>
+        
+        <tr>
+          <td>Thứ Sáu</td>
+          <td>Thực hành xây dựng Website</td>
+          <td>19:30 - 21:30</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  </body>
+</html>
